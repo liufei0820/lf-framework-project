@@ -1,0 +1,37 @@
+package com.lf.rpc.server.entity;
+
+/**
+ * @Classname User
+ * @Date 2021/9/16 下午4:06
+ * @Created by fei.liu
+ */
+public class User {
+
+    private long uid;
+    private short age;
+    private short sex;
+
+    public long getUid() {
+        return uid;
+    }
+
+    public void setUid(long uid) {
+        this.uid = uid;
+    }
+
+    public short getAge() {
+        return age;
+    }
+
+    public void setAge(short age) {
+        this.age = age;
+    }
+
+    public short getSex() {
+        return sex;
+    }
+
+    public void setSex(short sex) {
+        this.sex = sex;
+    }
+}
